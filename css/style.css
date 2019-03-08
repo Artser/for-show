@@ -228,7 +228,7 @@ input[type="radio"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 30px 70px;
+  padding: 30px 71px;
   border-bottom: 1px solid rgb(229, 229, 229);
   margin: 0;
 }
@@ -1031,16 +1031,16 @@ reason-title {
   color: #000000;
   background: #ffffff;
 }
-.developer__logo {
+.developer-logo {
   width: 115px;
   height: 41px;
   fill: #231f20;
 }
-.developer__logo:hover,
-.developer__logo-link:focus .developer__logo {
+.developer-logo:hover,
+.developer-logo-link:focus .developer-logo {
   fill: #81b3d2;
 }
-.developer__logo:active {
+.developer-logo:active {
   fill: #bdbbbc;
 }
 .option {
@@ -1135,7 +1135,7 @@ reason-title {
   display: flex;
   background-color: rgb(254, 254, 254);
   width: 1200px;
-  padding-left: 70px;
+  padding-left: 71px;
   padding-right: 75px;
   padding-top: 29px;
   border-bottom: 1px solid rgb(229, 229, 229);
@@ -1260,7 +1260,7 @@ reason-title {
   box-shadow: 0 7px 15px rgba(0, 1, 1, .15);
   z-index: 1
 }
-.search-form__row {
+.search-form-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1272,15 +1272,15 @@ reason-title {
   -ms-flex-align: center;
   align-items: center
 }
-.search-form__row+.search-form__row {
+.search-form-row+.search-form-row {
   margin-top: 29px
 }
-.search-form__row--columns {
+.search-form-row--columns {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between
 }
-.search-form__column {
+.search-form-column {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1289,12 +1289,12 @@ reason-title {
   -ms-flex-direction: row;
   flex-direction: row
 }
-.search-form__column--2 .search-form__label {
+.search-form-column--2 .search-form-label {
   text-align: right;
   padding-right: 26px;
   padding-left: 26px
 }
-.search-form__label {
+.search-form-label {
   display: block;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1304,20 +1304,20 @@ reason-title {
   font-weight: 700;
   color: #000
 }
-.search-form__input-wrapper {
+.search-form-input-wrapper {
   position: relative;
   width: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-flow: 1;
 }
-.search-form__input-wrapper--counter .search-form__input {
+.search-form-input-wrapper--counter .search-form-input {
   width: 38px;
   padding-left: 5px;
   padding-right: 5px;
   text-align: center
 }
-.search-form__input {
+.search-form-input {
   padding: 6px 15px;
   border: 0;
   font-family: inherit;
@@ -1331,34 +1331,34 @@ reason-title {
   width: 100%;
   outline: 0
 }
-.search-form__input:hover {
+.search-form-input:hover {
   background-color: #ebebeb
 }
-.search-form__input:focus {
+.search-form-input:focus {
   background-color: #fff;
   -webkit-box-shadow: inset 0 0 0 2px #e5e5e5;
   box-shadow: inset 0 0 0 2px #e5e5e5
 }
-.search-form__input:-ms-input-placeholder {
+.search-form-input:-ms-input-placeholder {
   color: #000
 }
-.search-form__input::placeholder {
+.search-form-input::placeholder {
   color: #000
 }
-.search-form__input::-webkit-input-placeholder {
+.search-form-input::-webkit-input-placeholder {
   color: #000
 }
-.search-form__input::-moz-placeholder {
+.search-form-input::-moz-placeholder {
   color: #000;
   opacity: 1
 }
-.search-form__input:-moz-placeholder {
+.search-form-input:-moz-placeholder {
   color: #000
 }
-.search-form__input-wrapper--calendar .search-form__input {
+.search-form-input-wrapper--calendar .search-form-input {
   padding-right: 45px
 }
-.search-form__calendar-btn {
+.search-form-calendar-btn {
   position: absolute;
   display: block;
   top: 0;
@@ -1370,17 +1370,17 @@ reason-title {
   border: 0;
   cursor: pointer
 }
-.search-form__calendar-icon {
+.search-form-calendar-icon {
   fill: #cacaca
 }
-.search-form__calendar-btn:focus .search-form__calendar-icon,
-.search-form__calendar-btn:hover .search-form__calendar-icon {
+.search-form-calendar-btn:focus .search-form-calendar-icon,
+.search-form-calendar-btn:hover .search-form-calendar-icon {
   fill: #000
 }
-.search-form__calendar-btn:active .search-form__calendar-icon {
+.search-form-calendar-btn:active .search-form-calendar-icon {
   fill: #81b3d2
 }
-.search-form__input-wrapper--counter {
+.search-form-input-wrapper--counter {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1388,7 +1388,7 @@ reason-title {
   -ms-flex-negative: 0;
   flex-shrink: 0
 }
-.search-form__input-control {
+.search-form-input-control {
   position: relative;
   display: block;
   -ms-flex-negative: 0;
@@ -1398,7 +1398,7 @@ reason-title {
   background-color: #f2f2f2;
   border: 0
 }
-.search-form__input-control--plus::before {
+.search-form-input-control--plus::before {
   content: "";
   position: absolute;
   top: 18px;
@@ -1408,8 +1408,8 @@ reason-title {
   border-radius: 1px;
   background-color: #a9a9a9
 }
-.search-form__input-control--minus::before,
-.search-form__input-control--plus::after {
+.search-form-input-control--minus::before,
+.search-form-input-control--plus::after {
   content: "";
   position: absolute;
   top: 14px;
@@ -1419,23 +1419,23 @@ reason-title {
   border-radius: 1px;
   background-color: #a9a9a9
 }
-.search-form__input-control--minus::before {
+.search-form-input-control--minus::before {
   top: 18px;
   left: 13px;
   width: 12px;
   height: 3px
 }
-.search-form__input-control:focus::after,
-.search-form__input-control:focus::before,
-.search-form__input-control:hover::after,
-.search-form__input-control:hover::before {
+.search-form-input-control:focus::after,
+.search-form-input-control:focus::before,
+.search-form-input-control:hover::after,
+.search-form-input-control:hover::before {
   background-color: #000
 }
-.search-form__input-control:active::after,
-.search-form__input-control:active::before {
+.search-form-input-control:active::after,
+.search-form-input-control:active::before {
   background-color: #81b3d2
 }
-.search-form__submit {
+.search-form-submit {
   margin-top: 55px;
   width: 100%
 }
